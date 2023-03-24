@@ -1,0 +1,98 @@
+*{
+    font-family: 'Poppins', sans serif;
+}
+body{
+    background-image: url(marek-piwnicki-ys0dXST7nl0-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding: 0 15px 0 15px;
+}
+span{
+    color: #ffff;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+header{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    color: #ffff;
+}
+
+.input{
+    height: 45px;
+    width: 87%;
+    border: none;
+    border-radius: 30px;
+    padding: 0 0 0 42px;
+    background: rgba(255, 255, 255, 0.4);
+    color: #ffff;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+i{
+    position: relative;
+    left: 17px;
+    top: -33px;
+    color: #ffff;
+}
+::-webkit-input-placeholder{
+    color: #ffff;
+}
+.submit{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 30px;
+    height: 45px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.85);
+    cursor: pointer;
+    transition: .35;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    color: #ffff;
+    font-size: small;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+}
+label{
+    color: #ffff;
+    text-decoration: none;
+}
+
+a{
+    color: #ffff;
+}
+
+a:hover{
+    color: rgb(43, 226, 141);
+}
